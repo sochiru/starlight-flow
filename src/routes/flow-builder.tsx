@@ -24,7 +24,7 @@ const initialEdges = [{ id: 'e1-2', source: '1', target: '2' }]
 const FlowBuilder = () => {
   const { theme: colorMode } = useTheme()
 
-  const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes)
+  const [nodes, , onNodesChange] = useNodesState(initialNodes)
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges)
 
   const onConnect: OnConnect = useCallback(

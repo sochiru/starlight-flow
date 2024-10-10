@@ -1,19 +1,19 @@
 import { createBrowserRouter } from 'react-router-dom'
 import Root from '@/routes/root'
-import SignIn from '@/routes/signin'
+import Login from '@/routes/login'
 import FlowBuilder from '@/routes/flow-builder'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/starlight-flow/',
     element: <Root />,
   },
   {
-    path: '/signin',
-    element: <SignIn />,
+    path: '/starlight-flow/login',
+    element: <Login />,
   },
   {
-    path: '/flow-builder',
+    path: '/starlight-flow/flow-builder',
     element: <FlowBuilder />,
   },
 ])

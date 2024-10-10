@@ -16,11 +16,11 @@ import ModeToggle from '@/components/my/mode-toggle'
 export const description =
   "A simple login form with email and password. The submit button says 'Sign in'."
 
-const SignIn = () => {
+const Login = () => {
   const navigate = useNavigate()
 
   const signIn = () => {
-    navigate('/flow-builder')
+    navigate('/starlight-flow/flow-builder')
   }
 
   return (
@@ -61,4 +61,4 @@ const SignIn = () => {
   )
 }
 
-export default SignIn
+export default Login

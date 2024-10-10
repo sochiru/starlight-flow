@@ -5,11 +5,11 @@ import ModeToggle from '../my/mode-toggle'
 
 const links = [
   {
-    href: '/signin',
-    name: 'Sign In',
+    href: '/starlight-flow/login',
+    name: 'Login',
   },
   {
-    href: '/flow-builder',
+    href: '/starlight-flow/flow-builder',
     name: 'Flow Builder',
   },
 ]
