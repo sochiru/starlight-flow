@@ -12,6 +12,7 @@ import {
   ReactFlowProvider,
   type Edge,
   type ReactFlowInstance,
+  Node,
 } from '@xyflow/react'
 
 import Header from '@/components/layout/header'
@@ -21,7 +22,7 @@ import { useTheme } from '@/components/theme-provider'
 import '@xyflow/react/dist/style.css'
 import './styles.css'
 
-const initialNodes = [
+const initialNodes: Node[] = [
   {
     id: '1',
     data: { label: 'Start' },
